@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientData", "PatientData\PatientData.csproj", "{BC8CA4C8-69CE-4744-81B9-7D56BEDEE9E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientData.Tests", "PatientData.Tests\PatientData.Tests.csproj", "{1AA69FC4-F1C7-4F0E-86A7-B5F26EF45A3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorsClient", "CorsClient\CorsClient.csproj", "{80E4A01C-B288-4FFD-94AB-7F1373667A81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BC8CA4C8-69CE-4744-81B9-7D56BEDEE9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8CA4C8-69CE-4744-81B9-7D56BEDEE9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8CA4C8-69CE-4744-81B9-7D56BEDEE9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8CA4C8-69CE-4744-81B9-7D56BEDEE9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AA69FC4-F1C7-4F0E-86A7-B5F26EF45A3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AA69FC4-F1C7-4F0E-86A7-B5F26EF45A3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AA69FC4-F1C7-4F0E-86A7-B5F26EF45A3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AA69FC4-F1C7-4F0E-86A7-B5F26EF45A3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80E4A01C-B288-4FFD-94AB-7F1373667A81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80E4A01C-B288-4FFD-94AB-7F1373667A81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80E4A01C-B288-4FFD-94AB-7F1373667A81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80E4A01C-B288-4FFD-94AB-7F1373667A81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

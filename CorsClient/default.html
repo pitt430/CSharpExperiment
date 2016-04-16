@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+<h3>Cors Request</h3>
+    <button id="getPatients">Get Patients</button>
+<pre id="output">
+
+</pre>
+<script src="Scripts/jquery-2.2.3.js"></script>
+<script>
+    $(function () {
+
+        var showResponse = function (data) {
+            $('#output').html(JSON.stringify(data, null, 4));
+        };
+
+        var getPatients = function () {
+            var url = 'http://localhost:10527/api/patients/5711c09b68ad373c98f240ed';
+            $.get(url).always(showResponse);
+            return false;
+        };  
+
+        $('#getPatients').on('click', getPatients);
+    });
+
+
+</script>
+</body>
+</html>
